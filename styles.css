@@ -21,10 +21,28 @@ footer {
     color: black;
 }
 
+.cell {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
 .container {
     display: flex;
     flex-direction: column;
     height: 100%;
+}
+
+.gameBoard {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.headerImg {
+    height: 100px;
+    width: 100px;
 }
 
 .main {
@@ -35,7 +53,8 @@ footer {
     flex: 1;
     height: 100%;
 }
- .headerImg {
-     height: 100px;
-     width: 100px;
- }
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
