@@ -21,11 +21,24 @@ footer {
     color: black;
 }
 
+.banner {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
 .cell {
     border: 2px solid black;
     height: 100px;
     width: 100px;
     text-align: center;
+    cursor: pointer;
+    font-size: 90px;
+}
+
+.cell:hover {
+    background-color: lightblue;
 }
 
 .container {
@@ -47,11 +60,22 @@ footer {
 
 .main {
     display: flex;
+    flex-direction: column;
     width: 100%;
     align-items: center;
     justify-content: center;
     flex: 1;
     height: 100%;
+}
+
+.reset-btn {
+    margin-top: 20px;
+    font-size: larger;
+    border-radius: 5px;
+    color: white;
+    background-color: cornflowerblue;
+    box-shadow: 2px 2px 2px black;
+    cursor:pointer;
 }
 
 .row {
