@@ -102,10 +102,6 @@ const gameController =(() => {
 
     GameBoard.createGameBoard()
 
-    const resetGame = () => {
-        window.location.reload(true)
-    }
-
     const playRound = (cellId) => {
         GameBoard.markBoard(cellId, getCurrentPlayer())
         if (GameBoard.checkWinner()) {
